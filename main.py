@@ -25,11 +25,6 @@ def coordinate_generator(a, b, c, a_y, b_y):
     if solution2.success:
         solutions.append(solution2.x)
 
-
-    # print(solutions)
-    # print(solutions[0][0],solutions[0][1])
-    # print(solutions[1][0],solutions[1][1])
-
     return ((solutions[0][0], solutions[0][1]), (solutions[1][0], solutions[1][1]))
 
 fig = plt.figure()
