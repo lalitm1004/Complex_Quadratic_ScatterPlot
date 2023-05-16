@@ -25,7 +25,10 @@ def coordinate_generator(a, b, c, a_y, b_y):
     if solution2.success:
         solutions.append(solution2.x)
 
+<<<<<<< HEAD
     # print(solutions)
+=======
+>>>>>>> b6f858994ad5fb4c4249290afb9d5f2e595a7e08
     return ((solutions[0][0], solutions[0][1]), (solutions[1][0], solutions[1][1]))
 
 
